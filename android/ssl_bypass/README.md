@@ -27,7 +27,7 @@ This tool hooks into low-level Java `javax.net.ssl` classes to inject a permissi
 3.  **Run the script** using the package name of the target app:
 
 ```bash
-frida -U -f com.example.targetapp -l SSL&mTLS_bpass.js
+frida -U -f com.example.targetapp -l bypass.js
 ```
 
 ### 📊 Understanding the Output
